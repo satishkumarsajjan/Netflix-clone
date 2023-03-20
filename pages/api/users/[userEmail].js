@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import prismadb from '@/libs/prismadb';
+import prismadb from '@/lib/prismadb';
 
 export default async function handler(req, res) {
   try {

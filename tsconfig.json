@@ -18,6 +18,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "lib/serverAuth.js", "pages/api/random.js", "pages/api/movies/[movieId].js", "pages/api/auth/[...nextauth].jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "lib/serverAuth.js", "pages/api/random.js", "pages/api/movies/[movieId].js", "pages/api/auth/[...nextauth].jsx", "pages/api/register.jsx"],
   "exclude": ["node_modules"]
 }
